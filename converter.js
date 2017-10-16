@@ -1,6 +1,5 @@
 /*
- convertor valuta u BAM
- Euro to BAM / 1.96
+ Euro to BAM / 1.96-
  USD to BAM  / 1.65
  RSD to BAM  / 0.016
  RUB to Bam  / 0.029
@@ -28,8 +27,8 @@
                                                 }
                                                 break;
                     case "Euro": switch (z){case "BAM": console.log("Your price in BAM is : " + x * 1.96);break; 
-                                           case "RSD": console.log("Your price in RSD is : " + x * 119.32); break;
-                                           case "USD": console.log("Your price in USD is : " + x * 1.18); break;
+                                            case "RSD": console.log("Your price in RSD is : " + x * 119.32); break;
+                                            case "USD": console.log("Your price in USD is : " + x * 1.18); break;
                                                 }               
                                             }
                                             
